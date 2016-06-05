@@ -24,7 +24,7 @@ Follow these steps to get started:
 
 1. Git-clone this repository.
 
-        $ git clone git@bitbucket.org:csponchiado/holidaycheck.git
+        $ git clone git@github.com:Sponch/elasticsearch-scala-play-spray-indexer-searcher.git
 
 2. Change directory into your clone:
 

@@ -7,7 +7,7 @@ in the movie and the year of the movie.
 ##Dependencies
 
 Before using the API, it's necessary to index information about movies and actors. So, you need 
-to go to the project [**indexer-movie-script**](https://bitbucket.org/csponchiado/holidaycheck/src/HEAD/indexer-movie-script/?at=master) and follow the **README**.
+to go to the project [**indexer-movie-script**](https://github.com/Sponch/elasticsearch-scala-play-spray-indexer-searcher/tree/master/indexer-movie-script) and follow the **README**.
 
 ## Technologies
 

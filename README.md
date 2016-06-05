@@ -7,8 +7,8 @@ The project **search-actors-play-scala** uses Play Framework, while **rest-api-s
 
 The three project are:
 
-* [indexer-movie-script](https://bitbucket.org/csponchiado/holidaycheck/src/HEAD/indexer-movie-script/?at=master)
-* [search-actors-play-scala ](https://bitbucket.org/csponchiado/holidaycheck/src/HEAD/search-actors-play-scala/?at=master)
-* [rest-api-search-movies ](https://bitbucket.org/csponchiado/holidaycheck/src/HEAD/rest-api-search-movies/README.markdown?fileviewer=file-view-default)
+* [indexer-movie-script](https://github.com/Sponch/elasticsearch-scala-play-spray-indexer-searcher/tree/master/indexer-movie-script)
+* [search-actors-play-scala ](https://github.com/Sponch/elasticsearch-scala-play-spray-indexer-searcher/tree/master/search-actors-play-scala)
+* [rest-api-search-movies ](https://github.com/Sponch/elasticsearch-scala-play-spray-indexer-searcher/tree/master/rest-api-search-movies)
 
 In each link do you have documentation about each component, how to install and run each one.

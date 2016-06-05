@@ -1,0 +1,27 @@
+@import model._
+@import scala.collection.mutable._
+
+@(movies: List[model.Movie])(implicit messages: Messages)
+	<div class="col-md-9">
+		@if(!movies || movies.size == 0){
+		 	Not found movies with the query 
+         } else {
+    	 <table class="table table-list-search">
+                    <thead>
+                        <tr>
+                            <th>Movie</th>
+                            <th>Year</th>               
+                        </tr>
+                    </thead>
+                    <tbody>
+	                    @for(movie <- movies){
+							<tr>
+	                            <td><a href="@controllers.routes.Application.show(movie._id)">@movie.name</a></td>
+	                            <td><a href="@controllers.routes.Application.show(movie._id)">@movie.year</a></td>     
+	                        </tr>
+						}	
+                 
+                    </tbody>
+                </table> 
+            }   
+		</div>

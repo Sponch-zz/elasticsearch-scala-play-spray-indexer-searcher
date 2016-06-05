@@ -1,0 +1,15 @@
+@(searchForm: Form[model.SearchData])(implicit messages: Messages)
+
+@import model._
+@import scala.collection.mutable._
+@import helper._
+@import play.api.i18n.Messages
+
+     <div class="col-md-3">
+      @form(action = routes.Application.search()) {          
+          @inputText(searchForm("query"),'_label -> "Actor:",'placeholder -> "Search for") 
+          <span class="input-group-btn">
+              <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+          </span>
+      }
+      </div>

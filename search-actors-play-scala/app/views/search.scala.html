@@ -1,0 +1,12 @@
+@import model._
+@import scala.collection.mutable._
+@import helper._
+@import play.api.i18n.Messages
+
+
+@(searchForm: Form[model.SearchData], movies: List[model.Movie])(implicit messages: Messages)
+
+@main("Welcome to Movie Search") {
+	@search_form(searchForm)
+	@search_results(movies)	
+}
